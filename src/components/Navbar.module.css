@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  gap: 12px;
+  margin: 20px 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.link,
+.navbar a,
+.navbar button {
+  text-decoration: none;
+  color: #333;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-weight: bold;
+  transition:
+    background-color 0.2s ease,
+    transform 0.1s ease;
+}
+
+.link:hover,
+.navbar a:hover,
+.navbar button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+}
